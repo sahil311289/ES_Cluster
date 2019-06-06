@@ -8,7 +8,7 @@ docker swarm init
 
 3. Start master node with overlay network
 
-docker-compose up
+docker-compose up -d
 
 
 4. Start an nginx service so that other nodes can view network
