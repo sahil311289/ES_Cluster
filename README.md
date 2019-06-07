@@ -1,6 +1,7 @@
 1. Set value
 
 sysctl -w vm.max_map_count=262144
+echo 'vm.max_map_count=262144' >> /etc/sysctl.con
 
 2. Start docker swarm
 
